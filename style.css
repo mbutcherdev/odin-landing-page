@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  background: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  margin-bottom: -20px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  color: #f9faf8;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.heroSection {
+  background: #1f2937;
+}
