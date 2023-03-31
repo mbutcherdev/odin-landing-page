@@ -139,6 +139,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   padding: 4rem 0;
+  flex-wrap: wrap;
 }
 
 .quote-text {
@@ -147,8 +148,9 @@ h1 {
   font-style: italic;
   font-weight: 300;
   text-align: center;
-  width: 800px;
+  width: 50%;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .quote-name {
@@ -165,23 +167,28 @@ h1 {
   align-items: center;
   padding: 4rem 0;
   background-color: #fff;
+  flex-wrap: wrap;
 }
 
 .cta-container {
   display: flex;
   text-align: start;
-  width: 1000px;
-  height: 100px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 50%;
+  height: 50%;
   border-radius: 20px;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
   background-color: #3882f6;
+  flex-wrap: wrap;
 }
 
 .cta-content {
   color: #fff;
   width: 70%;
+  flex-wrap: wrap;
 }
 
 .cta-button {
