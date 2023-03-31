@@ -5,26 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>SpacePort | Odin Project</title>
+    <title>SpacePort Travel | Odin Landing Page</title>
   </head>
   <body>
-    <!-- Navbar section-->
-    <nav class="nav">
-      <div class="left">
-        <img src="images/logo.png" alt="SpacePort Logo" />
-      </div>
-      <div class="right">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Tickets</a></li>
-          <li><a href="#">Contact</a></li>
+    <header>
+      <nav>
+        <div class="logo">SpacePort Travel</div>
+        <ul class="links">
+          <li><a href="#">Launch Pads</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="darkbg">
+        <section class="cover">
+          <div class="cover-left">
+            <h1>Orbital Transfers</h1>
+            <p>
+              Beginning in the next few years, SpacePort Travel will be offering
+              a world-first unique experience of commercial space travel<br />
+              Destinations currently include LEO and an orbit around the moon
+            </p>
+            <button class="cover-button">Reserve a seat</button>
+          </div>
+          <div class="cover-right">
+            <img
+              class="cover-img"
+              src="/assets/spacex--p-KCm6xB9I-unsplash.jpg"
+              alt=""
+            />
+          </div>
+        </section>
       </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="heroSection">
-      <p>Placeholder</p>
-    </div>
+      <section>
+        <h3 class="title">What can you provide?</h3>
+        <div class="card-container">
+          <div class="inner-card">
+            <img
+              class="card-img"
+              src="assets/dragon.jpg"
+              alt="Dragon Capsule. SpaceX"
+            />
+            <p>Flying on a SpaceX Dragon capsule for your orbital tour</p>
+          </div>
+          <div class="inner-card">
+            <img
+              class="card-img"
+              src="assets/internal.jpg"
+              alt="Dragon Seats. SpaceX"
+            />
+            <p>
+              Flights of 4-6 crew, providing ample space for zero-g experience
+            </p>
+          </div>
+          <div class="inner-card">
+            <img
+              class="card-img"
+              src="assets/moon.jpg"
+              alt="View of the moon"
+            />
+            <p>
+              Take an orbital tour around the Moon like the Apollo and Artemis
+              missions
+            </p>
+          </div>
+          <div class="inner-card">
+            <img class="card-img" src="assets/views.jpg" alt="View of Earth" />
+            <p>See our home planet like you never have before</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="quotes">
+          <div class="quote-text">
+            <p>
+              "Space is for everybody. It's not just for a few people in science
+              or math, or for a select group of astronauts. That's our new
+              frontier out there, and it's everybody's business to know about
+              space."
+            </p>
+          </div>
+          <div class="quote-name">
+            <p>~ CHRISTA MCAULIFFE</p>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="cta-container">
+          <div class="cta-content">
+            <h4>Join the wait-list</h4>
+            <p>Be one of the first to find out about our journey into space</p>
+          </div>
+          <button class="cta-button">Sign up</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">
+        Copyright @ SpacePort Travels 2023. An Odin Project Creation.
+      </p>
+    </footer>
   </body>
 </html>
